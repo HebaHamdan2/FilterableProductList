@@ -6,75 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessories</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
 
 <body>
     <header>
         <nav>
             <h1>COELACANTH</h1>
-            <h2></h2>
+            <h2 id="category">OUR PRODUCT LISTS</h2>
         </nav>
     </header>
     <main>
         <section id="filter-btns">
             <div class="container">
-                <button>ALL</button>
-                <button>NECKLACE</button>
-                <button>GLASSES</button>
-                <button>EARINGS</button>
-                <button>RINGS</button>
+                <button onclick="filterProd('all')" class="active">ALL</button>
+                <button onclick="filterProd('rings')">RINGS</button>
+                <button onclick="filterProd('necklace')">NECKLACE</button>
+                <button onclick="filterProd('glasses')">GLASSES</button>
+                <button onclick="filterProd('earrings')">EARINGS</button>
             </div>
         </section>
         <section id="products">
-            <div class="container">
-                <div class="product-card">
-                    <img src="assets/imgs/Ring1.png" alt="Ring1">
-                    <h3>SWEET FIRE</h3>
-                    <p>JUSTO NEC ULTROCES DUI SAPIEN EGET MEI PROIN SED LIBROE.</p>
-                    <h4>$399</h4>
-                </div>
-                <div class="product-card">
-                    <img src="assets/imgs/Ring1.png" alt="Ring1">
-                    <h3>SWEET FIRE</h3>
-                    <p>JUSTO NEC ULTROCES DUI SAPIEN EGET MEI PROIN SED LIBROE.</p>
-                    <h4>$399</h4>
-                </div>
-                <div class="product-card">
-                    <img src="assets/imgs/Ring1.png" alt="Ring1">
-                    <h3>SWEET FIRE</h3>
-                    <p>JUSTO NEC ULTROCES DUI SAPIEN EGET MEI PROIN SED LIBROE.</p>
-                    <h4>$399</h4>
-                </div>
-                <div class="product-card">
-                    <img src="assets/imgs/Ring1.png" alt="Ring1">
-                    <h3>SWEET FIRE</h3>
-                    <p>JUSTO NEC ULTROCES DUI SAPIEN EGET MEI PROIN SED LIBROE.</p>
-                    <h4>$399</h4>
-                </div>
-                <div class="product-card">
-                    <img src="assets/imgs/Ring1.png" alt="Ring1">
-                    <h3>SWEET FIRE</h3>
-                    <p>JUSTO NEC ULTROCES DUI SAPIEN EGET MEI PROIN SED LIBROE.</p>
-                    <h4>$399</h4>
-                </div>
-                <div class="product-card">
-                    <img src="assets/imgs/Ring1.png" alt="Ring1">
-                    <h3>SWEET FIRE</h3>
-                    <p>JUSTO NEC ULTROCES DUI SAPIEN EGET MEI PROIN SED LIBROE.</p>
-                    <h4>$399</h4>
-                </div>
-                <div class="product-card">
-                    <img src="assets/imgs/Ring1.png" alt="Ring1">
-                    <h3>SWEET FIRE</h3>
-                    <p>JUSTO NEC ULTROCES DUI SAPIEN EGET MEI PROIN SED LIBROE.</p>
-                    <h4>$399</h4>
-                </div>
-                <div class="product-card">
-                    <img src="assets/imgs/Ring1.png" alt="Ring1">
-                    <h3>SWEET FIRE</h3>
-                    <p>JUSTO NEC ULTROCES DUI SAPIEN EGET MEI PROIN SED LIBROE.</p>
-                    <h4>$399</h4>
-                </div>
+            <div class="container" id="prod-container">
             </div>
         </section>
     </main>
@@ -86,7 +39,7 @@
        
     </div>
 </footer>
-
+<script src="assets/js/script.js"></script>
 </body>
 
 </html>
