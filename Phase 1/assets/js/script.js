@@ -1,6 +1,6 @@
 // array of product objects
 const products = [
-    { name: "Sweet Fire", 
+    { name: "SWEET FIRE", 
     category: "rings", 
     price: 399, 
     image: "assets/imgs/Ring1.png" ,
