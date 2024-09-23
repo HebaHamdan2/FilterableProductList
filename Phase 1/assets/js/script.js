@@ -13,7 +13,7 @@ const products = [
     info:"JUSTO NEC ULTROCES DUI SAPIEN EGET MEI PROIN SED LIBROE."
 },
 {
-    name: "THE HARMONY", 
+    name: "TIMELESS SKY", 
     category: "rings", 
     price: 399, 
     image: "assets/imgs/Ring3.png" ,
