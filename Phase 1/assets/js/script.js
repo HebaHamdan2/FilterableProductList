@@ -51,9 +51,6 @@ const products = [
     info:"Collar Full Rim Glasses Embellished Women Accessories."
 
 },
-
-
-
 ];
 
 // Function to filter products
